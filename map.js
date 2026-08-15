@@ -44,6 +44,14 @@ console.log(result);
 
 
 const numbers = [1, 2, 3, 4];
+const numbers2 = [];
+
+for (i=0; i < numbers.length; i++)
+{
+    numbers2.push(numbers[i] * 2 + "です");
+}
+
+console.log(numbers2);
 
 const result2 = (str) => {
     return numbers.map(x => x * 2 + str);
